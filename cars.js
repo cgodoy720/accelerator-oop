@@ -50,12 +50,13 @@ class Car {
   
   // ✅ Step 7: Create an instance and test it
   const myCar = new Car('Toyota', 'Camry', 'Blue', 'Sedan');
+  console.log(myCar);
   
-  console.log(myCar.startEngine());
-  console.log(myCar.driveTo('school', 10));
-  console.log(myCar.paint('Red'));
-  console.log(myCar.stopEngine());
-  console.log(myCar.driveTo('store', 5)); // Should warn that engine isn't running
+  // console.log(myCar.startEngine());
+  // console.log(myCar.driveTo('school', 10));
+  // console.log(myCar.paint('Red'));
+  // console.log(myCar.stopEngine());
+  // console.log(myCar.driveTo('store', 5)); // Should warn that engine isn't running
   
   // 🧠 Bonus Ideas (Optional):
   // - Track fuel and burn fuel per mile
